@@ -1,10 +1,8 @@
 # Simple Design Is Not Simple
 
-We build software to satisfy a user's or a client's needs. To help them doing tasks more efficiently.
+Requirements to software can change over time. That makes it difficult to adapt the software in a safe and timely manner.
 
-Requirements to that software can change over time. That can make it difficult to adapt the software safe and in a timely manner.
-
-For that, we have design principles and techniques that help us produce cost effective software and code.
+To deal with this difficulty in a professional way, we have design principles and techniques that help us produce cost effective software and code.
 
 
 ## Design Matters
@@ -33,7 +31,7 @@ The main point is that you don't need to accommodate for every possible change t
 [Sandi Metz once summed it up](https://twitter.com/sandimetz/status/441241600077725697) perfectly:
 > Don't write code that guesses the future, arrange code so you can adapt to the future when it arrives.
 
-This is exactly where Simple Design comes into play.
+This is where Simple Design comes into play.
 
 
 ## Simple Design
@@ -56,9 +54,9 @@ For the last couple of years I worked as a consultant at a fairly huge enterpris
 
 One thing that all projects had in common was, that the final solution should be as flexible as possible, to accommodate even the most fringe use cases no one had thought of while developing the software.
 
-This is exactly where development teams usually start guessing the future.
+This is where development teams usually start guessing the future.
 
-Maybe you have seen or done it yourself, maybe you have heard about it. But trying to support &ldquo;everything&ldquo; with your application design is a nearly impossible task.
+Maybe you have seen or done it yourself already, maybe you have heard about it. But trying to support &ldquo;everything&ldquo; with your application design is a task nearly impossible.
 
 What I've seen many project managers want their development teams to do, is developing the software as flexible as possible. So flexible that completely new requirements, at best do not need any change to the code at all. This is often done by providing comprehensive extension and configuration possibilities. What leads to a more complex solution, since most of the application itself will be abstractions for &ldquo;whatever&rdquo; a user will do with it later.
 
@@ -76,9 +74,9 @@ Having a Simple Design for an application, will make it easy to accommodate for 
 
 ## Summary
 
-Of course, a Simple Design is not just what happens to your software once you stop worrying about the future.
+Of course, a Simple Design is not just what happens to your code once you stop worrying about the future.
 
-It takes practice. Fortunately, there is a lot of literature available to learn more about it. And even if you, as a developer or architect can't rewrite your whole existing application just for the sake of changing it to a more simple design, you still can start small. With the next feature request or bug report you can start refactoring the part you are working on to be simpler. Then gradually improving the design along the way &ndash; which is also known as the [boy scout rule](http://c2.com/cgi/wiki?BoyScoutRule).
+It takes practice. Fortunately, there is a lot of literature available to learn more about it. And even if you, as a developer or architect, can't rewrite your whole existing application just for the sake of changing it to a more simple design, you still can start small. With the next feature request or bug report you can start refactoring the part you are working on to be simpler. Then gradually improving the design along the way &ndash; which is also known as the [boy scout rule](http://c2.com/cgi/wiki?BoyScoutRule).
 
 
 By not providing the most extensible design that caters for every possible use case, we still can provide a design that a) has the flexibility to easily support future requirements, and b) is not bloated with components that are not or only barely used.
